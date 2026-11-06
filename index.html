@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad - Gestión de Equipaje</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 760px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #212121; }
+    h1, h2 { color: #1a237e; }
+  </style>
+</head>
+<body>
+  <h1>Política de privacidad</h1>
+  <p><strong>Aplicación:</strong> Gestión de Equipaje (com.ortz.gestionequipajereal)<br>
+  <strong>Desarrolladores:</strong> Franco Ortiz y Bastian Meneses<br>
+  <strong>Última actualización:</strong> 6 de noviembre de 2026</p>
+
+  <p>Gestión de Equipaje es una aplicación para registrar tipos de equipaje, destinatarios y encomiendas, y generar comprobantes en PDF. Esta política explica qué datos se recopilan, para qué se usan y con quién se comparten.</p>
+
+  <h2>1. Datos que recopilamos</h2>
+  <ul>
+    <li><strong>Cuenta:</strong> si inicias sesión con Google, se obtiene un identificador de usuario (UID) y tu nombre y correo básicos de la cuenta. Si usas el acceso local, se crea una sesión anónima con un identificador sin datos personales.</li>
+    <li><strong>Datos que tú ingresas:</strong> tipos de equipaje (nombre, peso máximo, tarifa, descripción), destinatarios (nombre, dirección, teléfono, correo, comuna) y encomiendas (peso, valor declarado, tarifa y fecha). Cada registro se asocia a tu identificador de usuario.</li>
+    <li><strong>Uso de la app y diagnóstico:</strong> eventos de uso (por ejemplo, crear, actualizar o eliminar un registro) mediante Firebase Analytics, informes de errores mediante Firebase Crashlytics (tipo de error, versión de la app, modelo de dispositivo) y un token de dispositivo para enviar notificaciones mediante Firebase Cloud Messaging.</li>
+  </ul>
+
+  <h2>2. Para qué usamos los datos</h2>
+  <ul>
+    <li>Mostrarte y gestionar tus registros.</li>
+    <li>Generar comprobantes en PDF con los datos de tus encomiendas.</li>
+    <li>Entender cómo se usa la app, corregir fallos y enviarte notificaciones.</li>
+  </ul>
+
+  <h2>3. Google Drive</h2>
+  <p>La app puede subir un comprobante en PDF a tu Google Drive, y solo cuando tú tocas "Subir a Drive". Para esto se solicita el permiso <code>drive.file</code>, que limita el acceso a los archivos y carpetas que la propia app crea (la carpeta "GestionEquipaje"). La app no puede ver ni modificar el resto de tus archivos de Drive.</p>
+
+  <h2>4. Con quién se comparten los datos</h2>
+  <p>No vendemos tus datos ni los compartimos con anunciantes. Los datos se almacenan y procesan con servicios de Google (Firebase Authentication, Cloud Firestore, Analytics, Crashlytics y Cloud Messaging, y Google Drive si usas esa función), sujetos a las políticas de privacidad de Google. La app no muestra publicidad.</p>
+
+  <h2>5. Seguridad</h2>
+  <p>Los datos viajan cifrados y se guardan en Firebase con reglas de seguridad que permiten a cada usuario acceder únicamente a los registros que él mismo creó.</p>
+
+  <h2>6. Conservación y eliminación</h2>
+  <p>Conservamos tus datos mientras uses la app. Puedes eliminar registros desde la propia app. Si quieres que eliminemos tu cuenta y todos los datos asociados, escríbenos al correo de contacto indicado abajo y los borraremos.</p>
+
+  <h2>7. Menores de edad</h2>
+  <p>La app no está dirigida a menores de 13 años y no recopilamos intencionalmente sus datos.</p>
+
+  <h2>8. Cambios y contacto</h2>
+  <p>Si esta política cambia, actualizaremos la fecha de esta página. Para consultas o solicitudes sobre tus datos: <strong>[CORREO DE CONTACTO]</strong>.</p>
+</body>
+</html>
